@@ -10,15 +10,15 @@
 -	Load Balance
 
 ## Create Alarm
-•	Select EC2 instance > Actions > Monitor and troubleshoot > Manage cloudwatch alarms
-•	Add alarm – name it 
-•	Alarm notification – enter a name to create an SNS topic to send notification when alarm is triggered 
-•	Specify alarm thresholds – criteria for alarm to trigger
-•	Select create 
+-	Select EC2 instance > Actions > Monitor and troubleshoot > Manage cloudwatch alarms
+-	Add alarm – name it 
+-	Alarm notification – enter a name to create an SNS topic to send notification when alarm is triggered 
+-	Specify alarm thresholds – criteria for alarm to trigger
+-	Select create 
 
 
 ## Create SNS Topic (SNS - Simple Notification Service)
-•	Go to SNS – Simple Notification Service > Topics
-•	Enter the name of the topic created in the alarm step 
-•	Publish message – the message you want to send to the person being notified
-•	Create subscription – the way and person you want to be notified
+-	Go to SNS – Simple Notification Service > Topics
+-	Enter the name of the topic created in the alarm step 
+-	Publish message – the message you want to send to the person being notified
+-	Create subscription – the way and person you want to be notified
