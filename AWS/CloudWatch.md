@@ -1,6 +1,6 @@
 # Monitoring with CloudWatch
 
-![Alt text](relative/path/to/img.jpg?raw=true "Monitoring")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/Monitoring.JPG "Monitoring")
 
 -	Response time depending on network/traffic
 -	How often - use logs – hourly/daily/weekly etc
@@ -32,7 +32,7 @@ Amazon SNS Topics - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitori
 
 ## CloudWatch Services
 
-![Alt text](relative/path/to/img.jpg?raw=true "CloudWatch Services")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/CloudWatch-services.JPG "CloudWatch Services")
 
 
 ### Automated and Manual monitoring 

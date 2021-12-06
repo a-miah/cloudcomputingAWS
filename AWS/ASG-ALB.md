@@ -1,6 +1,6 @@
 # Auto Scaling Group and Application Load Balancing 
 
-![Alt text](relative/path/to/img.jpg?raw=true "Autoscaling and Load Balancing Diagram")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/ASG-ALB.JPG "Autoscaling and Load Balancing Diagram")
 
 **Scaling out** – creating more copies of the same server and if one gets damaged or more traffic then you then move it to the replica instances whilst the other one gets updated (24 mins in recording)
 
@@ -36,7 +36,7 @@ Paying for the instances when the traffic increases and then reducing when traff
 9.	Keep storage same
 10.	Advanced details – fill in user data box with commands from app provision to install the packages you require
 
-![Alt text](relative/path/to/img.jpg?raw=true "Launch template advanced detail")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/Launch-template-advanced-detail.JPG "Launch template advanced detail")
 
 # Create Auto Scaling Group
 11.	After creating launch instance 
@@ -61,4 +61,4 @@ Paying for the instances when the traffic increases and then reducing when traff
 
 ## ASG and ALB Review 
 
-![Alt text](relative/path/to/img.jpg?raw=true "Review Diagram")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/ALB-ASG-review-diagram.JPG "Review Diagram")

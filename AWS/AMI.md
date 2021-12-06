@@ -2,11 +2,11 @@
 
 ## AMI Diagram
 
-![Alt text](relative/path/to/img.jpg?raw=true "AMI Diagram")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/AMI-Diagram.JPG "AMI Diagram")
 
 The AMI saves a snapshot of an instance with all the required dependencies installed therefore when you later return you don't have to reset another instance as it saves it in memory
 
-![Alt text](relative/path/to/img.jpg?raw=true "AMI Location")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/AMI-location.JPG "AMI Location")
 
 - Need an EC2 instance running
 - ami-id – location of the AMI

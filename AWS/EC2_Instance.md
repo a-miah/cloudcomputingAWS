@@ -1,6 +1,6 @@
 # Running EC2 instance for app
 
-![Alt text](relative/path/to/img.jpg?raw=true "EC2 Instance")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/EC2.JPG "EC2 Instance")
 
 ## What is an EC2 Instance
 
@@ -36,7 +36,7 @@ Then open bash terminal and do below commands:
 
 # 2-tier architecture deployment 
 
-![Alt text](relative/path/to/img.jpg?raw=true "db EC2 Instance")
+![Alt text](https://github.com/a-miah/cloudcomputingAWS/blob/main/images/2-tier-architecture-deployment.JPG "db EC2 Instance")
 
 ## Creating the db istance
 - Create EC2 Linux Ubuntu 180.04LTS
