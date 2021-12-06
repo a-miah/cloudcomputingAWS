@@ -1,14 +1,27 @@
 # Running EC2 instance for app
 
-*Insert Image*
+![Alt text](relative/path/to/img.jpg?raw=true "EC2 Instance")
+
+## What is an EC2 Instance
+
+An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure. It is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
 
 ## Running EC2 Instance for app
 
-- Choose Ubuntu 18.04LTS on AWS
-- select size of VM
-- security group to secure it
+- Launch instance from EC2 dashboard
+- Choose Ubuntu 18.04LTS on AWS (which box we are using)
+- select size of VM (storage size)
+- Configure instance (autoassign public IP - enable - to ensure it works in browser and not just terminal)
+- Add tags - Name: devops_attaik_app 
+- security group to secure it (who can access it) - type: SSH, Port range: 22, Source: My IP
+- To allow to launch on browser - type: HTTP, Port: 80, Source: anywhere
+- Review and launch - select eng99|rsm key and tick box
+
+Then open bash terminal and do below commands:
+
 - `cd .ssh` in git bash
 - `chmod 400 eng99.pem` - giving permission
+- connect with instance created and go to SSH Client
 - Copy the EC2 instance from AWS
 - `sudo apt-get update -y`
 - `sudo apt-get upgrade -y`
@@ -21,6 +34,9 @@
 - might need to seed first 
 -	`npm start` and app will be ready
 
+# 2-tier architecture deployment 
+
+![Alt text](relative/path/to/img.jpg?raw=true "db EC2 Instance")
 
 ## Creating the db istance
 - Create EC2 Linux Ubuntu 180.04LTS
@@ -46,3 +62,8 @@
 
 
 DB_HOST="mongodb://3.250.226.137:27017/posts  #IP (3.250.226.137) is the public ip from ec2 db instance 
+
+
+### EC2 Instance Documentation
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html

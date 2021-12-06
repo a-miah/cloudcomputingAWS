@@ -1,4 +1,7 @@
 # Monitoring with CloudWatch
+
+![Alt text](relative/path/to/img.jpg?raw=true "Monitoring")
+
 -	Response time depending on network/traffic
 -	How often - use logs – hourly/daily/weekly etc
 -	Status code is 200
@@ -16,9 +19,22 @@
 -	Specify alarm thresholds – criteria for alarm to trigger
 -	Select create 
 
+> When you create a CloudWatch alarm, you can add this SNS topic to send an email notification when the alarm changes state.
+
 
 ## Create SNS Topic (SNS - Simple Notification Service)
 -	Go to SNS – Simple Notification Service > Topics
 -	Enter the name of the topic created in the alarm step 
 -	Publish message – the message you want to send to the person being notified
 -	Create subscription – the way and person you want to be notified
+
+Amazon SNS Topics - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/US_SetupSNS.html
+
+## CloudWatch Services
+
+![Alt text](relative/path/to/img.jpg?raw=true "CloudWatch Services")
+
+
+### Automated and Manual monitoring 
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring_automated_manual.html
